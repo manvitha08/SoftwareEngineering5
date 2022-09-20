@@ -1,10 +1,6 @@
-# SoftwareEngineering5
+PROJECT NAME : ONLINE DOCTOR APPOINTMENT AND CONSULTATION SYSTEM
 
 GENERAL DESCRIPTION:
-
-
-
-
 
 Online Doctor Appointment and Consultation System is a web application used by
 doctors, users and pharmacies. Doctors can register in this website and post
@@ -23,4 +19,18 @@ application which simplifies the work and time of doctors, users and
 pharmacies.
 
 
+STATUS: ANALYSING THE RISKS AND MAKING A PLAN
+
+DELIVERABLES:-
+
+1. SOURCE CODE(SAMPLE)
+2. MODULES
+  2.1 ADMINISTRATION
+  2.2 DOCTOR DETAILS
+  2.3 USER DETAILS
+  2.4 PHARMACY
+  2.5 PAYMENT
+3.RISK MANAGEMENTS
+4.PLANNING,TESTING,DESINGNING
+5. DATABASE STRUCTURE
 
