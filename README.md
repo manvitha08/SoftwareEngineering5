@@ -1,5 +1,5 @@
 Directory Structure Details
-1. Directory Structure
+# Directory Structure
     1.1) meeting minutes
       1.1.1) Meeting Minutes Deliverable 1
     1.2) planning documents
