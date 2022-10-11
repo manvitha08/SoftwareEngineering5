@@ -2,10 +2,12 @@
 # Directory Structure
     1.1) meeting minutes
       1.1.1) Meeting Minutes Deliverable 1
+      1.1.2) Meeting Minutes 2.pdf
     1.2) planning documents
     1.3) project reports
       1.3.1) Deliverable 1-Report
-      1.3.2) Softwareengineering5 Del-1
+      1.3.2) Deliverable-2.pdf
+      1.3.3) Softwareengineering5 Del-1
     1.4) project source code
 # GROUP INFO
     2.1) Group Members Details
