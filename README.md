@@ -1,4 +1,4 @@
-Directory Structure Details
+## Directory Structure Details
 # Directory Structure
     1.1) meeting minutes
       1.1.1) Meeting Minutes Deliverable 1
@@ -7,9 +7,9 @@ Directory Structure Details
       1.3.1) Deliverable 1-Report
       1.3.2) Softwareengineering5 Del-1
     1.4) project source code
-2. GROUP INFO
+# GROUP INFO
     2.1) Group Members Details
-3. Online_doctor_appointment
+# Online_doctor_appointment
     3.1) administrator
       3.1.1) admin_home.jsp
     3.2) alert
