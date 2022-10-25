@@ -1,0 +1,52 @@
+
+<%@ page import="java.sql.*,java.io.*"%>
+<%@page import="online.database.DBConnection"%>
+<%
+	String name = "";
+	String address = "";
+	String mobile = "";
+	String email = "";
+	String password = "";
+	if (request.getParameter("name") != null)
+		name = request.getParameter("name");
+	else
+		name = "null";
+	if (request.getParameter("address") != null)
+		address = request.getParameter("address");
+	else
+		address = "null";
+	if (request.getParameter("mobile") != null)
+		mobile = request.getParameter("mobile");
+	else
+		mobile = "null";
+	if (request.getParameter("email") != null)
+		email = request.getParameter("email");
+	else
+		email = "null";
+	if (request.getParameter("password") != null)
+		password = request.getParameter("password");
+	else
+		password = "null";
+
+	String qry = "insert into patients(name,address,mobile,email,password) values('" + name + "','" + address
+			+ "','" + mobile + "','" + email + "','" + password + "')";
+
+	try {
+
+		DBConnection db = new DBConnection();
+		Connection conn = db.getConnection();
+		Statement stmt = conn.createStatement();
+		stmt = conn.createStatement();
+		int n = stmt.executeUpdate(qry);
+		if (n == 0)
+			out.println("<script language='javascript'>window.alert('Registration Failed.  Try Again!');window.location='patient_registration.jsp';</script>");
+		else
+			out.println(
+					"<script language='javascript'>window.alert('Registration Success.');window.location='patient_login.jsp';</script>");
+
+		stmt.close();
+		conn.close();
+	} catch (Exception ee) {
+		out.println("<h3>Error :" + ee.toString());
+	}
+%>
