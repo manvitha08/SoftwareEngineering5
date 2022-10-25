@@ -1,0 +1,38 @@
+
+<%@ page import="java.sql.*,java.io.*"%>
+<%@page import="online.database.DBConnection"%>
+
+
+
+<%
+	String email = "";
+	String password = "";
+	if (request.getParameter("email") != null)
+		email = request.getParameter("email");
+	else
+		email = "null";
+	if (request.getParameter("password") != null)
+		password = request.getParameter("password");
+	else
+		password = "null";
+	String qry = "select * from patients where email='" + email + "' and password='" + password + "'";
+	try {
+
+		DBConnection db = new DBConnection();
+		Connection conn = db.getConnection();
+		Statement stmt = conn.createStatement();
+		stmt = conn.createStatement();
+		ResultSet rs = stmt.executeQuery(qry);
+		if (rs.next()) {
+			session.setAttribute("email", email);
+			response.sendRedirect("patient/patient_home.jsp");
+		} else {
+			response.sendRedirect("patient_login.jsp?msg=Invalid username/password");
+		}
+
+		stmt.close();
+		conn.close();
+	} catch (Exception ee) {
+		out.println("<h3>Error :" + ee.toString());
+	}
+%>
