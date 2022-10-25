@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+	.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+  </style>
+</head>
+<body style="background-color: bodycolor;background-image: url(images/)">
+
+<%@ include file = "home_menu.jsp" %>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h2>Online Doctor Appointment System</h2>      
+    <h5><p>Online Doctor Appointment and Consultation System is a web application used by doctors, users and pharmacies. Doctors can register in this website and post their profile such as expertization, experience, address, timings, fee details etc. This web site allows the users to book an appointment for consultation online or offline for a doctor regarding their health problems. Users after selection of a doctor in the web site the system ask the consultation fee and the payment will be performed online which is transferred to the doctors account.  If the consultation is online then the doctor after consultation sends medicine prescription to the user account in the website and users can directly send same prescription of medicine to the pharmacies who already registered in the website which are nearest to user and pharmacies delivers medicines to the user door steps. This project Online Doctor Appointment and Consultation System aims to develop an application which simplifies the work and time of doctors, users and pharmacies.
+</p></h5>
+    
+  </div>
+</div>
+  
+<div class="container-fluid bg-3 text-center">    
+   <div class="row">
+    <div class="col-sm-12">
+      <img src="image/home2.jfif" class="img-responsive center" style="width:40%" alt="Image" >
+    </div>
+   
+  </div>
+</div>
+
+</body>
+</html>
