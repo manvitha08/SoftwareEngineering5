@@ -11,7 +11,7 @@
       1.3.2) Deliverable-2.pdf
       1.3.3) Softwareengineering5 Del-1
       1.3.4) Deliverable 3.pdf
-      1.3.5) Deliverable-4.pdf
+      1.3.5) Deliverable 4.pdf
     1.4) project source code
         1.4.1)Phase 1 source code
             --HOME.txt
@@ -44,6 +44,7 @@
             --view_doctors.jsp
             --view_feedbacks.jsp
             --view_patients.jsp
+            --patient_registration.jsp
 # GROUP INFO
     2.1) Group Members Details
 # Online_doctor_appointment
