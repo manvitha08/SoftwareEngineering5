@@ -31,6 +31,19 @@
             --images
             --appointment.jsp
             --appointment_history.jsp
+            --admin_home.jsp
+            --admin_home_menu.jsp
+            --book_appointment.jsp
+            --book_appointment_code.jsp
+            --doctor_home.jsp
+            --doctor_home_menu.jsp
+            --patient_home.jsp
+            --patient_home_menu.jsp
+            --post_feedback.jsp
+            --post_feedback_code.jsp
+            --view_doctors.jsp
+            --view_feedbacks.jsp
+            --view_patients.jsp
 # GROUP INFO
     2.1) Group Members Details
 # Online_doctor_appointment
