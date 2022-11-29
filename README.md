@@ -45,6 +45,15 @@
             --view_feedbacks.jsp
             --view_patients.jsp
             --patient_registration.jsp
+           1.4.3)Phase 3
+           --pharmacy_login.jsp
+            --Pharmacy_login_code.jsp
+            --Pharmacy_registration.jsp
+            --Pharmacy_registration_code.jsp
+         
+            
+          
+           
 # GROUP INFO
     2.1) Group Members Details
 # Online_doctor_appointment
